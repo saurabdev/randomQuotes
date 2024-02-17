@@ -63,3 +63,27 @@ body {
     transform: translate(3px, 3px);
     box-shadow: 5px 5px 1px transparent;
 }
+
+.socialIcons {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+}
+
+a img {
+    transition: transform .5s ease-in-out;
+}
+
+a img:hover {
+    transform: scale(1.2);
+}
