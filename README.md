@@ -1,10 +1,10 @@
 # Random Quote Generator
 
-This project is a simple random quote generator that fetches quotes from the [Quoteable](https://quoteable.io/) API and displays them to the user. It's a great way to add some inspiration or thought-provoking content to your website or application.
+This project is a simple random quote generator that fetches quotes from the [Quotable](https://quotable.io) API and displays them to the user. It's a great way to add some inspiration or thought-provoking content to your website or application.
 
 ## Demo
 
-- [Click here]() for live demo
+- [Click here](https://random-quotes-roan-psi.vercel.app/) for live demo
 
 ## Features
 
