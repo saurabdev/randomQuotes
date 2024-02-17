@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Protest+Riot&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    font-family: "Kode Mono", monospace;
+    backdrop-filter: blur(4px);
+}
+
+.container {
+    background: rgba(0, 0, 0, .22);
+    width: 500px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 16px;
+    border-radius: 10px;
+}
+
+.title {
+    background-image: linear-gradient(180deg, #FAD961 0%, #F76B1C 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.quote,
+#loading,
+#quote-author {
+    color: #fff;
+    text-align: center;
+    transition: all .2s ease-in;
+}
+
+#fetch-button {
+    cursor: pointer;
+    background: linear-gradient(180deg, #FAD961 0%, #F76B1C 100%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: -5px 5px 1px #FAD961;
+    transition: all .2s ease-in;
+}
+
+#fetch-button:active {
+    transform: translate(3px, 3px);
+    box-shadow: 5px 5px 1px transparent;
+}
